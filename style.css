@@ -1,0 +1,43 @@
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif; */
+
+
+/* Header */
+
+
+.header{
+    background:#343339 ;
+    height: 31px;
+}
+.top-header-text{
+    color: #f4bd13;
+    font: normal normal normal 14px/17px Lato;
+}
+.unordered-list{
+    color: #bababa;
+    font: normal normal normal 12px/15px Lato;
+}
+.nav-item{
+    cursor: pointer;
+    padding: 0 5px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #bababa;
+}
+.nav-item:nth-child(2){
+    border-right: #bababa 1px solid;
+    border-left: #bababa 1px solid;
+}
+.nav-item:hover, .nav-item a:hover{
+    color: #fff;
+}
+.nav-item a .facebook-f{
+    background: #bababa ('assets/facebook-f.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
