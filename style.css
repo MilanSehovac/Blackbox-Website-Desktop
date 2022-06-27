@@ -4,40 +4,120 @@ font-family: 'PT Serif', serif;
 font-family: 'Roboto', sans-serif; */
 
 
-/* Header */
+/* TOP HEADER */
 
-
-.header{
-    background:#343339 ;
+.top-header{
     height: 31px;
+    background: #343339;
 }
-.top-header-text{
+.container{
+    max-width: 1920px;
+}
+.top-header-text p{
     color: #f4bd13;
     font: normal normal normal 14px/17px Lato;
+    margin-bottom: 0px;
 }
-.unordered-list{
+.top-header-ul{
     color: #bababa;
     font: normal normal normal 12px/15px Lato;
 }
-.nav-item{
+.top-header-ul .nav-item{
     cursor: pointer;
-    padding: 0 5px;
+    padding: 0 10px;
+    height:16px;
+    padding-top: 1px;
 }
-.nav-item a{
+.top-header-ul .nav-item a{
     text-decoration: none;
     color: #bababa;
+    padding-right: 5px;
 }
-.nav-item:nth-child(2){
+.top-header-ul .nav-item:nth-child(2){
     border-right: #bababa 1px solid;
     border-left: #bababa 1px solid;
 }
-.nav-item:hover, .nav-item a:hover{
+.top-header-ul .nav-item:nth-child(4){
+    margin-left: 11px;
+}
+.top-header-ul .nav-item:hover{
     color: #fff;
 }
-.nav-item a .facebook-f{
-    background: #bababa ('assets/facebook-f.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.facebook-f{
+    margin-top:2px ;
+    background:
+        url('assets/facebook-f.svg');
+        height: 11px;
+        width: 6px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size:cover;
 
+}
+.instagram{
+
+    margin-top:2px ;
+    background:
+            url('assets/instagram.svg');
+    height: 11px;
+    width: 11px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.twitter{
+    margin-top:2px ;
+    background:
+            url('assets/twitter.svg');
+    height: 11px;
+    width: 13px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+/* MIDDLE HEADER */
+
+.middle-header{
+    background: #1d1e1f;
+    height: 76px;
+}
+.logo{
+    position: relative;
+    background:url('assets/Blackbox Meats TM Logo - Black.svg');
+    width: 91px;
+    height: 44px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 40%;
+}
+.search-input{
+    background: #343339;
+    border: #525156 1px solid;
+    height: 31px !important;
+
+}
+.search-input::placeholder{
+    position: absolute;
+    color:#fff;
+    font: normal normal normal 13px/18px PT serif;
+}
+.search-icon{
+    position: absolute;
+    left: 96%;
+    background:url('assets/search.svg');
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.middle-header-ul .li-1{
+    background: #efefef;
+    font: normal normal bold 11px/13px Josefin Sans;
+    color: #4c4c4c;
+    width: 124px;
+    height: 34px;
 }
