@@ -105,8 +105,8 @@ font-family: 'Roboto', sans-serif; */
     font: normal normal normal 13px/18px PT serif;
 }
 .search-icon{
-    position: absolute;
-    left: 96%;
+    position: relative;
+    right: 30px;
     background:url('assets/search.svg');
     width: 16px;
     height: 16px;
@@ -114,10 +114,102 @@ font-family: 'Roboto', sans-serif; */
     background-repeat: no-repeat;
     display: inline-block;
 }
-.middle-header-ul .li-1{
-    background: #efefef;
+.li-1{
+    cursor: pointer;
+    height:32px ;
+    background-color: #efefef;
+}
+.li-1:hover, .li-2:hover, .li-3 a:hover{
+    background-color: #f4bd13;
+    transition: 2ms;
+}
+.li-1 a{
+    position: relative;
+    color:#4c4c4c ;
     font: normal normal bold 11px/13px Josefin Sans;
-    color: #4c4c4c;
-    width: 124px;
+    text-transform: uppercase;
+    bottom: 4px;
+}
+.saved-items-icon{
+    position: relative;
+    background:url('assets/heart.svg');
+    width: 16px;
+    height: 14px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:inline-block;
+    margin-left: 5px;
+    top: 2px;
+
+}
+.li-2::before{
+    content: '';
+    width: 0;
+    padding-bottom: 10px;
+    position: relative;
+    border:1px solid #343536;
+    right: 6px;
+}
+.li-2::after{
+    content: '';
+    width: 0;
+    padding-bottom: 10px;
+    position: relative;
+    border:1px solid #343536;
+    left: 14px;
+}
+.li-2{
+    cursor: pointer;
+    background-color: #efefef;
+    width: 32px;
+    height: 32px;
+    margin-left: 3.5%;
+}
+.li-2 a{
+    width: 100%;
+}
+.li-2 i{
+    position: relative;
+    background: url('assets/user.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    top: 4px;
+    left: 7px;
+}
+.li-3{
+    display: inline-block;
+    width: 76px;
+    height: 32px;
+    margin-left: 3.5%;
+}
+.li-3 a{
+    font: normal normal 600 11px/13px Josefin Sans;
+    border: 1px solid #efefef;
+    border-radius: 15px;
+    background-color: #1d1e1f;
     height: 34px;
+}
+.shopping-cart-icon{
+    position: relative;
+    background:url('assets/shopping-cart.svg');
+    width: 14px;
+    height: 13px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 6px;
+    top: 2px;
+}
+
+/* BOTTOM HEADER */
+
+.bottom-header{
+    background-color:#f4bd13;
+    height: 47px;
+}
+.dropdown-item{
+    color: #f4bd13;
 }
