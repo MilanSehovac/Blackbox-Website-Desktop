@@ -1,7 +1,7 @@
 /* font-family: 'Josefin Sans', sans-serif;
 font-family: 'Lato', sans-serif;
 font-family: 'PT Serif', serif;
-font-family: 'Roboto', sans-serif; */
+font-family: 'Roboto', sans-serif;
 
 
 /* TOP HEADER */
@@ -16,7 +16,7 @@ font-family: 'Roboto', sans-serif; */
 .top-header-text p{
     color: #f4bd13;
     font: normal normal normal 14px/17px Lato;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .top-header-ul{
     color: #bababa;
@@ -128,7 +128,6 @@ font-family: 'Roboto', sans-serif; */
     color:#4c4c4c ;
     font: normal normal bold 11px/13px Josefin Sans;
     text-transform: uppercase;
-    bottom: 4px;
 }
 .saved-items-icon{
     position: relative;
@@ -176,7 +175,7 @@ font-family: 'Roboto', sans-serif; */
     display: inline-block;
     width: 13px;
     height: 14px;
-    top: 4px;
+    top: 8px;
     left: 7px;
 }
 .li-3{
@@ -210,6 +209,72 @@ font-family: 'Roboto', sans-serif; */
     background-color:#f4bd13;
     height: 47px;
 }
+.bottom-header-height{
+    height: 47px !important;
+}
+#bottom-header-nav{
+    height: 47px !important;
+}
+.nav-item{
+    font: normal normal bold 11px/13px Lato;
+    text-transform: uppercase;
+
+}
+.nav-link{
+    color: #000 !important;
+}
+.nav-link:hover{
+    color: #fff !important;
+}
 .dropdown-item{
     color: #f4bd13;
+    font: normal normal bold 11px/13px Lato;
+    text-transform: uppercase;
+}
+.navigation{
+    left: 30px;
+}
+.dropdown-menu{
+    background:#343339;
+}
+#bottom-header-p{
+    position: relative;
+    margin-bottom: 0;
+    font: normal normal bold 11px/13px Lato;
+    top: 17px;
+    margin-left: 85px;
+}
+
+/* HERO */
+
+#hero{
+    position: relative;
+    display: block;
+    
+}
+.bg-image{
+    background:url('assets/BBM - Website Header - 1920 x 436 - Now Serving Atlanta.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 436px;
+}
+
+/* MAIN CONTENT */
+
+.essentials{
+    background-color:#1d1e1f;
+    padding-top: 15px;
+}
+.essentials .container{
+    width:1200px;
+}
+.essentials-title{
+    font: normal normal bold 27px/32px Josefin Sans;
+    color: #f4bd13;
+    padding-bottom: 15px;
+}
+hr{
+    position: absolute;
+    width: 745px;
+    background-color:#404143;
 }

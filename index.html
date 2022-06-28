@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lato:wght@400;700&family=PT+Serif&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
@@ -63,7 +66,7 @@
                         </li>
                         <li class="nav-item li-2 align-self-center rounded-circle">
                             <a href="#" class="rounded-circle">
-                                <i class="login-icon"></i>
+                                <i class="login-icon align-self-center"></i>
                             </a>
 
                         </li>
@@ -78,51 +81,70 @@
                 </div>
             </div>
             <div class="row bottom-header">
-                <div class="col">
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
+                <div class="col-7 bottom-header-height ml-auto navigation">
+                    <nav class="navbar navbar-expand-md navbar-light" id="bottom-header-nav">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
 
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">
                                         Our Products
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">Essentials</a>
-                                        <a class="dropdown-item" href="#">Beef</a>
-                                        <a class="dropdown-item" href="#">Chicken</a>
-                                        <a class="dropdown-item" href="#">Pork</a>
-                                        <a class="dropdown-item" href="#">Lamb</a>
-                                        <a class="dropdown-item" href="#">Sausage</a>
-                                        <a class="dropdown-item" href="#">Salmon</a>
+                                        <a href="#" class="dropdown-item">Essentials</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="#" class="dropdown-item">Beef</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="#" class="dropdown-item">Chicken</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="#" class="dropdown-item">Pork</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="#" class="dropdown-item">Lamb</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="#" class="dropdown-item">Sausage</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="#" class="dropdown-item">Salmon</a>
+
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        About us
-                                    </a>
+                                    <a href="#" class="nav-link">About us</a>
                                 </li>
-                                <li>
-                                    <a href="#" class="nav-link">
-                                        Support
-                                    </a>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Support</a>
                                 </li>
-                                <li>
-                                    <a href="#" class="nav-link">
-                                        Contact us
-                                    </a>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
                     </nav>
                 </div>
-                <div class="col">
-                    <p>Delivery Times: 1 Business Day(S). M-S</p>
+                <div class="col-4 bottom-header-height">
+                    <p id="bottom-header-p">Delivery Times: 1 Business Day(S). M-S</p>
                 </div>
             </div>
         </div>
 
     </header>
+    <section id="Hero">
+        <div class="bg-image"></div>
+    </section>
+    <section class="essentials">
+        <div class="container">
+
+                <h1 class="essentials-title text-center">
+                    <hr>
+                    The Essentials
+                </h1>
+
+
+        </div>
+
+    </section>
 </body>
 
 </html>
